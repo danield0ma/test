@@ -1,0 +1,95 @@
+Problem:    Cars
+Rows:       11
+Columns:    25 (25 integer, 25 binary)
+Non-zeros:  75
+Status:     INTEGER OPTIMAL
+Objective:  TotalCost = 273000 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 BuyExactlyOneCarEachDay[Hetfo]
+                                   1             1             = 
+     2 BuyExactlyOneCarEachDay[Kedd]
+                                   1             1             = 
+     3 BuyExactlyOneCarEachDay[Szerda]
+                                   1             1             = 
+     4 BuyExactlyOneCarEachDay[Csutortok]
+                                   1             1             = 
+     5 BuyExactlyOneCarEachDay[Pentek]
+                                   1             1             = 
+     6 BuyEachCarExactlyOnce[Wartburg]
+                                   1             1             = 
+     7 BuyEachCarExactlyOnce[Lada]
+                                   1             1             = 
+     8 BuyEachCarExactlyOnce[Kispolski]
+                                   1             1             = 
+     9 BuyEachCarExactlyOnce[Trabant]
+                                   1             1             = 
+    10 BuyEachCarExactlyOnce[Skoda]
+                                   1             1             = 
+    11 TotalCost              273000                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 BuyCar[Wartburg,Hetfo]
+                    *              0             0             1 
+     2 BuyCar[Lada,Hetfo]
+                    *              0             0             1 
+     3 BuyCar[Kispolski,Hetfo]
+                    *              0             0             1 
+     4 BuyCar[Trabant,Hetfo]
+                    *              0             0             1 
+     5 BuyCar[Skoda,Hetfo]
+                    *              1             0             1 
+     6 BuyCar[Wartburg,Kedd]
+                    *              0             0             1 
+     7 BuyCar[Lada,Kedd]
+                    *              0             0             1 
+     8 BuyCar[Kispolski,Kedd]
+                    *              0             0             1 
+     9 BuyCar[Trabant,Kedd]
+                    *              1             0             1 
+    10 BuyCar[Skoda,Kedd]
+                    *              0             0             1 
+    11 BuyCar[Wartburg,Szerda]
+                    *              1             0             1 
+    12 BuyCar[Lada,Szerda]
+                    *              0             0             1 
+    13 BuyCar[Kispolski,Szerda]
+                    *              0             0             1 
+    14 BuyCar[Trabant,Szerda]
+                    *              0             0             1 
+    15 BuyCar[Skoda,Szerda]
+                    *              0             0             1 
+    16 BuyCar[Wartburg,Csutortok]
+                    *              0             0             1 
+    17 BuyCar[Lada,Csutortok]
+                    *              0             0             1 
+    18 BuyCar[Kispolski,Csutortok]
+                    *              1             0             1 
+    19 BuyCar[Trabant,Csutortok]
+                    *              0             0             1 
+    20 BuyCar[Skoda,Csutortok]
+                    *              0             0             1 
+    21 BuyCar[Wartburg,Pentek]
+                    *              0             0             1 
+    22 BuyCar[Lada,Pentek]
+                    *              1             0             1 
+    23 BuyCar[Kispolski,Pentek]
+                    *              0             0             1 
+    24 BuyCar[Trabant,Pentek]
+                    *              0             0             1 
+    25 BuyCar[Skoda,Pentek]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

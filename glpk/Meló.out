@@ -1,0 +1,57 @@
+Problem:    Mel
+Rows:       8
+Columns:    9 (9 integer, 9 binary)
+Non-zeros:  29
+Status:     INTEGER OPTIMAL
+Objective:  Cost = 26 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 ExactlyOneWorkerForEachTask[Vonatkerek_pumpalas]
+                                   1             1             = 
+     2 ExactlyOneWorkerForEachTask[Erdekfeszites]
+                                   1             1             = 
+     3 ExactlyOneWorkerForEachTask[Le-hutes]
+                                   1             1             = 
+     4 ExactlyOneTaskForEachWorker[Zsiros_B._Odon]
+                                   1             1             = 
+     5 ExactlyOneTaskForEachWorker[Viz_Elek]
+                                   1             1             = 
+     6 ExactlyOneTaskForEachWorker[Kapuk_Bela]
+                                   1             1             = 
+     7 VizElekAndKapukBela
+                                   0                           1 
+     8 Cost                       26                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Assignations[Zsiros_B._Odon,Vonatkerek_pumpalas]
+                    *              0             0             1 
+     2 Assignations[Viz_Elek,Vonatkerek_pumpalas]
+                    *              0             0             1 
+     3 Assignations[Kapuk_Bela,Vonatkerek_pumpalas]
+                    *              1             0             1 
+     4 Assignations[Zsiros_B._Odon,Erdekfeszites]
+                    *              0             0             1 
+     5 Assignations[Viz_Elek,Erdekfeszites]
+                    *              1             0             1 
+     6 Assignations[Kapuk_Bela,Erdekfeszites]
+                    *              0             0             1 
+     7 Assignations[Zsiros_B._Odon,Le-hutes]
+                    *              1             0             1 
+     8 Assignations[Viz_Elek,Le-hutes]
+                    *              0             0             1 
+     9 Assignations[Kapuk_Bela,Le-hutes]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

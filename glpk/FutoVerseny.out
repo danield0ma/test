@@ -1,0 +1,47 @@
+Problem:    FutoVerseny
+Rows:       6
+Columns:    6
+Non-zeros:  28
+Status:     OPTIMAL
+Objective:  TotalCost = 9146.927743 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Calory       NL          6000          6000                     1.22095 
+     2 WaterConsumption
+                    B        11.3133            10               
+     3 Caffeine     NL           300           300                    0.175495 
+     4 Minerals     NL         15000         15000                    0.117906 
+     5 WaterMustBeAtLeastTheAmountOfCola
+                    NL             0            -0                     276.419 
+     6 TotalCost    B        9146.93                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Cola         B        2.96497             0               
+     2 Isotony      B        3.01655             0               
+     3 Banana       B        2.47184             0               
+     4 SaltyParadise
+                    NL             0             0                     430.533 
+     5 Water        B        2.96497             0               
+     6 Coffee       NL             0             0                     1878.14 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.14e-13 on row 3
+        max.rel.err = 1.89e-16 on row 3
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.27e-13 on column 2
+        max.rel.err = 4.65e-16 on column 6
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

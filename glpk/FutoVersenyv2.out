@@ -1,0 +1,57 @@
+Problem:    FutoVersenyv2
+Rows:       7
+Columns:    6
+Non-zeros:  27
+Status:     OPTIMAL
+Objective:  TotalCost = 9206.83027 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Amounts[Calory]
+                    NL          6000          6000                     1.21404 
+     2 Amounts[Water]
+                    NL            10            10                     15.0617 
+     3 Amounts[Caffeine]
+                    B        372.134           300               
+     4 Amounts[Minerals]
+                    NL         15000         15000                    0.118131 
+     5 WaterMustBeAtLeastTheAmountOfCola
+                    NL             0            -0                     273.125 
+     6 DrinkingCoffeeMeansDrinkingWaterAsWell
+                    B              0            -0               
+     7 TotalCost    B        9206.83                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Consume[Cola]
+                    B        3.96824             0               
+     2 Consume[Isotony]
+                    B        2.73371             0               
+     3 Consume[Banana]
+                    B        2.59479             0               
+     4 Consume[SaltyParadise]
+                    NL             0             0                     430.351 
+     5 Consume[Water]
+                    B        3.96824             0               
+     6 Consume[Coffee]
+                    NL             0             0                     1948.45 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 9.09e-13 on row 1
+        max.rel.err = 7.58e-17 on row 1
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 4.55e-13 on column 2
+        max.rel.err = 4.10e-16 on column 6
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
